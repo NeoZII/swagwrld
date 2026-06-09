@@ -11,8 +11,8 @@ from pymongo import MongoClient
 TOKEN     = os.environ.get("FINDS_TOKEN")
 MONGO_URI = os.environ.get("MONGO_URI")
 
-GUILD_ID        = 0
-FINDS_CHANNEL   = 0
+GUILD_ID        = 1392191254250651688
+FINDS_CHANNEL   = 1450479233242501151
 LOG_CHANNEL     = 0
 
 POINTS_POST    = 15
