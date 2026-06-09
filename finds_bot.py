@@ -7,7 +7,8 @@ from datetime import datetime
 #                   ⚙️  CONFIGURATION
 # ═══════════════════════════════════════════════════════════
 
-TOKEN = "FINDS_TOKEN"   # separate token from your main bot
+import os
+TOKEN = os.environ.get("FINDS_TOKEN")   # separate token from your main bot
 
 GUILD_ID        = 1392191254250651688   # your server ID
 FINDS_CHANNEL   = 1450479233242501151   # #your-finds channel ID
