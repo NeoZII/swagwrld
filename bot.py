@@ -16,7 +16,7 @@ GUILD_ID         = 1392191254250651688   # Your server ID
 WELCOME_CHANNEL  = 1505137478103990283   # #welcome
 GENERAL_CHANNEL  = 1446249530868764742   # #general  (daily posts go here)
 VERIFY_CHANNEL   = 1489248561727016990   # #verify-requests  (mods only, hidden from members)
-LEVELUP_CHANNEL  = 0   # #level-up alerts (set to 0 to post in same channel)
+LEVELUP_CHANNEL  = 1513927345092952166   # #level-up alerts (set to 0 to post in same channel)
 
 # Forum channel IDs — messages here do NOT earn XP
 # Right-click each forum channel → Copy ID, add them like: {123456789, 987654321}
