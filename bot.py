@@ -8,7 +8,8 @@ from datetime import datetime, timedelta
 #      Fill in every value below before running the bot
 # ═══════════════════════════════════════════════════════════
 
-TOKEN = "TOKEN"
+import os
+TOKEN = os.environ.get("TOKEN")
 
 # ── Server & Channel IDs ─────────────────────────────────────
 GUILD_ID         = 1392191254250651688   # Your server ID
